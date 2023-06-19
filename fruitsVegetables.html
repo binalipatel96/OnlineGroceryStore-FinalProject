@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Grocery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="CSS/grocery1.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="wrapper">
+    <!-- <header>
+        <nav>
+            <a href="index.html" class="logo"> Logo</a>
+            <div class="header-right">
+                <a class="active" href="index.html">Home</a>
+                <a href="buy.html">Daily Staples</a>
+                <a href="fruitsVegetables.html">Fruits & Vegetables</a>
+                <a href="contact.html">Cleaning & Household</a>
+                <a href="contact.html">Kitchen Essentials</a>
+                <a href="contact.html">Beauty & Hygiene </a>
+            </div>
+        </nav>
+    </header> -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>G</span>roceries</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="DailyStaples.html">Daily Staples</a>
+            <a href="fruitsVegetables.html">Fruits & Vegetables</a>
+            <a href="Cleaning&Household.html">Cleaning & Household</a>
+            <a href="BeautyHygiene.html">Beauty & Hygiene</a>
+            <a href="allProducts.html">All products</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <main>
+
+        <section class="home" id="home">
+
+            <div class="content">
+                <h3>Online Grocery Store</h3>
+                <p>Shopping according to your imagination</p>
+                <a href="#" class="btn">Find more</a>
+            </div>
+
+            <div class="controls">
+                <span class="vid-btn active" data-src="Videos/GreenFruitsVeg.mp4"></span>
+                <span class="vid-btn" data-src="Videos/OrangeFruitsVeg.mp4"></span>
+            </div>
+
+            <div class="video-container">
+                <video src="Videos/GreenFruitsVeg.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+
+        </section>
+
+        <div class="outer-box">
+            <h2>Fruits</h2>
+            <ul>
+                <div class="img-box">
+                    <li><img src="Images/Fruits/apple.jpg" alt="apple">
+                        <div class="description-box">Apple<br>
+                            Price : $6.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Fruits/banana.jpg" alt="banana">
+                        <div class="description-box">Banana<br>
+                            Price : $1.89/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Fruits/cherry.jpg" alt="cherry">
+                        <div class="description-box">Red Cherries<br>
+                            Price : $5.99/lb<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Fruits/orange.jpg" alt="orange">
+                        <div class="description-box">Navel Orange<br>
+                            Price : 1.59/ea <br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Fruits/pomegranate.jpg" alt="pomegranate">
+                        <div class="description-box">Pomegranate<br>
+                            Price : $3.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Fruits/watermelon.jpg" alt="watermelon">
+                        <div class="description-box">Watermelon<br>
+                            Price : $9.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="outer-box">
+            <h2>Vegetables</h2>
+            <ul>
+                <div class="img-box">
+                    <li><img src="Images/Vegetables/broccoli.jpg" alt="broccoli">
+                        <div class="description-box">Organic Broccoli<br>
+                            Price : $3.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Vegetables/cucumber.jpg" alt="cucumber">
+                        <div class="description-box">Cucumber<br>
+                            Price : $3.49/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Vegetables/onion.jpg" alt="onion">
+                        <div class="description-box">Onion<br>
+                            Price : $1.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Vegetables/brinjal.jpg" alt="brinjal">
+                        <div class="description-box">Organic Eggplant<br>
+                            Price : $3.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Vegetables/cabbage.jpg" alt="cabbage">
+                        <div class="description-box">Green Cabbage<br>
+                            Price : $0.69/lb<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/Vegetables/ginger.jpg" alt="ginger">
+                        <div class="description-box">Organic Ginger Root<br>
+                            Price : $2.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+        <a id="toTop" href="#wrapper">Back to top</a>
+        <section>
+            <div class="box-container">
+                <div class="box">
+                    <h3>about us</h3>
+                    <p>This is the website where we offer multiple varieties at reasonable prices.</p>
+                </div>
+                <div class="box">
+                    <h3>Customer Service</h3>
+                    <a href="#">Email Us</a>
+                    <a href="#">Track your Order</a>
+                    <a href="#">FAQ's</a>
+                    <a href="#">Shipping Info</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="index.html">home</a>
+                    <a href="DailyStaples.html">DailyStaples</a>
+                    <a href="fruitsVegetables.html">fruitsVegetables</a>
+                    <a href="CleaningHousehold.html">CleaningHousehold</a>
+                    <a href="BeautyHygiene.html">BeautyHygiene</a>
+                    <a href="Allproducts.html">Allproducts</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+                    <a href="#">twitter</a>
+                </div>
+            </div>
+
+            <h1 class="credit"> <span> OnlineGroceryStore | Copyright &copy; 2021 | all rights reserved! </span> </h1>
+        </section>
+    </footer>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        let searchBtn = document.querySelector('#search-btn');
+        let searchBar = document.querySelector('.search-bar-container');
+        let formBtn = document.querySelector('#login-btn');
+        let loginForm = document.querySelector('.login-form-container');
+        let formClose = document.querySelector('#form-close');
+        let menu = document.querySelector('#menu-bar');
+        let navbar = document.querySelector('.navbar');
+        let videoBtn = document.querySelectorAll('.vid-btn');
+
+        window.onscroll = () => {
+            searchBtn.classList.remove('fa-times');
+            searchBar.classList.remove('active');
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+            loginForm.classList.remove('active');
+        }
+
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        });
+
+        searchBtn.addEventListener('click', () => {
+            searchBtn.classList.toggle('fa-times');
+            searchBar.classList.toggle('active');
+        });
+
+        formBtn.addEventListener('click', () => {
+            loginForm.classList.add('active');
+        });
+
+        formClose.addEventListener('click', () => {
+            loginForm.classList.remove('active');
+        });
+
+        videoBtn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelector('.controls .active').classList.remove('active');
+                btn.classList.add('active');
+                let src = btn.getAttribute('data-src');
+                document.querySelector('#video-slider').src = src;
+            });
+        });
+
+        var swiper = new Swiper(".review-slider", {
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Grocery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="CSS/grocery1.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="wrapper">
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>G</span>roceries</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="DailyStaples.html">Daily Staples</a>
+            <a href="fruitsVegetables.html">Fruits & Vegetables</a>
+            <a href="Cleaning&Household.html">Cleaning & Household</a>
+            <a href="BeautyHygiene.html">Beauty & Hygiene</a>
+            <a href="allProducts.html">All products</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <main>
+
+        <h1 class="heading">
+            <span>B</span>
+            <span>E</span>
+            <span>S</span>
+            <span>T</span>
+            <span class="space"></span>
+            <span>S</span>
+            <span>E</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+        </h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Fruits</td>
+                    <td>Apple</td>
+                    <td>$6.99/Ea</td>
+                    <td>Extremely crisp and dense with a fine-grained flesh, the Pink Lady apple has
+                        a pleasantly tart flavor and natural sweetness. While it's excellent for baking,
+                        the Pink Lady is also a smart choice for salads, as it tends
+                        to be resistant to browning. This attractive bi-colored apple is generally
+                        medium-sized and conical-shaped, making it perfect to pack for a midday snack.</td>
+                </tr>
+
+                <tr>
+                    <td>Daily Staples</td>
+                    <td>Milk</td>
+                    <td>$15/l</td>
+                    <td>Milk comes with many health benefits, which include the health of our bones, teeth,
+                        skin, and gener-ally our immune system. </td>
+                </tr>
+
+                <tr>
+                    <td>Beauty and hygiene</td>
+                    <td>Lotion</td>
+                    <td>$52</td>
+                    <td>Lavender and aloe scented lotion 3 in 1 </td>
+                </tr>
+
+                <tr>
+                    <td>Cleaning and Household</td>
+                    <td>Origami Plain Paper Party Plates - 23 cm, 20 pcs</td>
+                    <td>$52</td>
+                    <td>Origami brings to you a range of paper plates which take the pain of clean-up away.
+                        So every time you use them, you can do so without harming the environment.
+                        They are ideal for an everyday meal and great for food catering at parties, picnics and
+                        functions. So order it right away!</td>
+                </tr>
+
+                <tr>
+                    <td>Vegetables</td>
+                    <td>Organic Broccoli</td>
+                    <td>$3.99/Ea</td>
+                    <td>With its cabbage-like flavor and satisfying crunch, we think of broccoli as one of
+                        the ultimate vegetables. It's nutritious, low in calories, available year-round and
+                        hearty. Steam it, stir-fry it, sauté it, bake it in casseroles, purée it in soups
+                        or dunk it raw in dressing or hummus.</td>
+                </tr>
+
+                <tr>
+                    <td>Daily Staples</td>
+                    <td>Wheat Flour</td>
+                    <td>$53 700gm</td>
+                    <td>Enriched wheat flour may be a good source of iron, thiamine, niacin, calcium, and
+                        vitamin B6, in addition to the above nutrients.</td>
+                </tr>
+
+                <tr>
+                    <td>Beauty and hygiene</td>
+                    <td>Liquid Handwash</td>
+                    <td>$7</td>
+                    <td>Palmolive Orchid & Milk Liquid Handwash Refill, 750 ml</td>
+                </tr>
+
+                <tr>
+                    <td>Cleaning and Household</td>
+                    <td>Harpic Original Disinfectant Toilet Cleaner Liquid, 3X500 ml Multipack</td>
+                    <td>$12</td>
+                    <td> Harpic is Indias No.1 Toilet Cleaning Brand which is highly recommended by
+                        the Indian Medical Association. Harpic guarantees to kill 99.99% of disease-causing
+                        bacteria as well as germs while leaving your toilets and bathrooms smelling fragrant
+                        with a wide variety of mesmerising aromas.</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <a id="toTop" href="#wrapper">Back to top</a>
+        <section>
+            <div class="box-container">
+                <div class="box">
+                    <h3>about us</h3>
+                    <p>This is the website where we offer multiple varieties at reasonable prices.</p>
+                </div>
+                <div class="box">
+                    <h3>Customer Service</h3>
+                    <a href="#">Email Us</a>
+                    <a href="#">Track your Order</a>
+                    <a href="#">FAQ's</a>
+                    <a href="#">Shipping Info</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="index.html">home</a>
+                    <a href="DailyStaples.html">DailyStaples</a>
+                    <a href="fruitsVegetables.html">fruitsVegetables</a>
+                    <a href="CleaningHousehold.html">CleaningHousehold</a>
+                    <a href="BeautyHygiene.html">BeautyHygiene</a>
+                    <a href="Allproducts.html">Allproducts</a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+                    <a href="#">twitter</a>
+                </div>
+            </div>
+
+            <h1 class="credit"> <span> OnlineGroceryStore | Copyright &copy; 2021 | all rights reserved! </span> </h1>
+        </section>
+    </footer>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        let searchBtn = document.querySelector('#search-btn');
+        let searchBar = document.querySelector('.search-bar-container');
+        let formBtn = document.querySelector('#login-btn');
+        let loginForm = document.querySelector('.login-form-container');
+        let formClose = document.querySelector('#form-close');
+        let menu = document.querySelector('#menu-bar');
+        let navbar = document.querySelector('.navbar');
+        let videoBtn = document.querySelectorAll('.vid-btn');
+
+        window.onscroll = () => {
+            searchBtn.classList.remove('fa-times');
+            searchBar.classList.remove('active');
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+            loginForm.classList.remove('active');
+        }
+
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        });
+
+        searchBtn.addEventListener('click', () => {
+            searchBtn.classList.toggle('fa-times');
+            searchBar.classList.toggle('active');
+        });
+
+        formBtn.addEventListener('click', () => {
+            loginForm.classList.add('active');
+        });
+
+        formClose.addEventListener('click', () => {
+            loginForm.classList.remove('active');
+        });
+
+        videoBtn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelector('.controls .active').classList.remove('active');
+                btn.classList.add('active');
+                let src = btn.getAttribute('data-src');
+                document.querySelector('#video-slider').src = src;
+            });
+        });
+
+        var swiper = new Swiper(".review-slider", {
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>

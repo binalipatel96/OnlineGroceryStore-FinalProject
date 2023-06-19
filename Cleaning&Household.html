@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Store</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/g1.css">
+
+</head>
+<body  id="wrapper">
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>G</span>roceries</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="DailyStaples.html">Daily Staples</a>
+        <a href="fruitsVegetables.html">Fruits & Vegetables</a>
+        <a href="Cleaning&Household.html">Cleaning & Household</a>
+        <a href="BeautyHygiene.html">Beauty & Hygiene</a>
+        <a href="Allproducts.html">All products</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<main>
+      
+      
+    <h2 class="w3-center">Beauty and Hygiene</h2>
+    
+    
+      <img class="mySlides" src="images/h1.jpg"  style="width:100%" >
+    
+     
+      <img class="mySlides" src="images/h2.jpg" style="width:100%">
+    
+      <img class="mySlides" src="images/h3.jpg" style="width:100%">
+    
+      <img class="mySlides" src="images/H4.jpg" style="width:100%">
+    
+      <img class="mySlides" src="images/s5.jpg" style="width:100%">
+    
+    
+    
+    <script>
+      var slideIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 3000); 
+      }
+      </script>
+          
+    
+         
+          <div class="outer-box">
+            <h2>Cleaning</h2>
+            <ul>
+                <div class="img-box">
+                    <li><img src="Images/c1.jpg" alt="Harpic">
+                        <div class="description-box">Harpic Liquid<br>
+                            Price : $4.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c2.jpg" alt="Surf excel powder">
+                        <div class="description-box">Surf excel powder<br>
+                            Price : $19.49/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c3.jpg" alt="Himalaya Purifying Neem Face Wash">
+                        <div class="description-box">Himalaya  Neem Face Wash<br>
+                            Price : $9.99/lb<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c4.jpg" alt="Rose Water">
+                        <div class="description-box">Rose Water<br>
+                            Price : 3.59/ea <br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c5.jpg" alt="Spin Mop Bucket-360 Degree With 2 Refills">
+                        <div class="description-box">Spin Mop Bucket<br>
+                            Price : $24.48/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c6.jpg" alt="Scrubber - Sponge Wipes">
+                        <div class="description-box">Scrubber - Sponge Wipes<br>
+                            Price : $3.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    
+        <div class="outer-box">
+            <h2>Household</h2>
+            <ul>
+                <div class="img-box">
+                    <li><img src="Images/c7.jpg" alt="kitchen Handkerchief">
+                        <div class="description-box">kitchen Handkerchief<br>
+                            Price : $11.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c8.jpg" alt="Paper Glass - Assorted Colour">
+                        <div class="description-box">Paper Glass<br>
+                            Price : $3.49/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c9.jpg" alt="Origami Plain Paper Party Plates">
+                        <div class="description-box">Origami Plain Paper Party Plates<br>
+                            Price : $13.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c10.jpg" alt="Baby Powder">
+                        <div class="description-box">Baby Powder<br>
+                            Price : $15.99/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c11.jpg" alt="Kitchen Towel 2 Ply - 100% Virgin Pulp/Paper">
+                        <div class="description-box">Kitchen Towel 2 Ply<br>
+                            Price : $1.69/lb<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+                <div class="img-box">
+                    <li><img src="Images/c12.jpg" alt="Origami So Soft 2 Ply Plain Table Top Box, 50 pcs">
+                        <div class="description-box"> Ply Plain Table Top Box<br>
+                            Price : $4.49/ea<br>
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    
+        </main>
+
+        <footer>
+            <a id="toTop" href="#wrapper">Back to top</a>
+            <section>
+                <div class="box-container">
+                    <div class="box">
+                        <h3>about us</h3>
+                        <p>This is the website where we offer multiple varieties at reasonable prices.</p>
+                    </div>
+                    <div class="box">
+                        <h3>Customer Service</h3>
+                        <a href="#">Email Us</a>
+                        <a href="#">Track your Order</a>
+                        <a href="#">FAQ's</a>
+                        <a href="#">Shipping Info</a>
+                    </div>
+                    <div class="box">
+                        <h3>quick links</h3>
+                        <a href="index.html">home</a>
+                        <a href="DailyStaples.html">DailyStaples</a>
+                        <a href="fruitsVegetables.html">fruitsVegetables</a>
+                        <a href="CleaningHousehold.html">CleaningHousehold</a>
+                        <a href="BeautyHygiene.html">BeautyHygiene</a>
+                        <a href="Allproducts.html">Allproducts</a>
+                    </div>
+                    <div class="box">
+                        <h3>follow us</h3>
+                        <a href="#">facebook</a>
+                        <a href="#">instagram</a>
+                        <a href="#">twitter</a>
+                    </div>
+                </div>
+    
+                <h1 class="credit"> <span> OnlineGroceryStore | Copyright &copy; 2021 | all rights reserved! </span> </h1>
+            </section>
+    
+        </footer>
+    
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script>
+let searchBtn = document.querySelector('#search-btn');
+let searchBar = document.querySelector('.search-bar-container');
+let formBtn = document.querySelector('#login-btn');
+let loginForm = document.querySelector('.login-form-container');
+let formClose = document.querySelector('#form-close');
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+let videoBtn = document.querySelectorAll('.vid-btn');
+
+window.onscroll = () =>{
+    searchBtn.classList.remove('fa-times');
+    searchBar.classList.remove('active');
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+    loginForm.classList.remove('active');
+}
+
+menu.addEventListener('click', () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+});
+
+searchBtn.addEventListener('click', () =>{
+    searchBtn.classList.toggle('fa-times');
+    searchBar.classList.toggle('active');
+});
+
+formBtn.addEventListener('click', () =>{
+    loginForm.classList.add('active');
+});
+
+formClose.addEventListener('click', () =>{
+    loginForm.classList.remove('active');
+});
+
+videoBtn.forEach(btn =>{
+    btn.addEventListener('click', ()=>{
+        document.querySelector('.controls .active').classList.remove('active');
+        btn.classList.add('active');
+        let src = btn.getAttribute('data-src');
+        document.querySelector('#video-slider').src = src;
+    });
+});
+
+var swiper = new Swiper(".review-slider", {
+    spaceBetween: 20,
+    loop:true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+    },
+});
+</script>
+
+</body>
+</html>
